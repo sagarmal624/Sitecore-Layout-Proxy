@@ -1,0 +1,22 @@
+{
+  "name": "fwd-server",
+  "version": "1.0.0",
+  "description": "\"Proxy Server for layout service\"",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "querystring": "^0.2.0",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ashutosh",
+  "license": "ISC"
+}

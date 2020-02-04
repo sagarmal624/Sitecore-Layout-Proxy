@@ -1,0 +1,1545 @@
+{
+    "sitecore": {
+      "context": {
+        "visitorIdentificationTimestamp": 637092130761991700,
+        "pageEditing": false,
+        "site": {
+          "name": "FWD-TH"
+        },
+        "pageState": "normal",
+        "language": "en"
+      },
+      "route": {
+        "name": "fwd-story",
+        "displayName": "FWD STORY",
+        "fields": {
+          "metadataTitle": {
+            "value": ""
+          },
+          "metadataDescription": {
+            "value": ""
+          },
+          "IsPageSearchable": {
+            "value": false
+          }
+        },
+        "databaseName": "master",
+        "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+        "itemId": "4143a24b-d530-4ea4-bce9-d6158fcf4ac4",
+        "itemLanguage": "en",
+        "itemVersion": 1,
+        "layoutId": "e60605a5-f4f9-479a-b992-741bce767b1d",
+        "templateId": "9c4aed76-a66e-44d2-9f0f-76ec5e705009",
+        "templateName": "Generic Page",
+        "placeholders": {
+          "jss-metadata": [],
+          "jss-header": [],
+          "jss-main": [
+            {
+              "uid": "ed53779f-c46e-4ac2-9107-b44d03fb8238",
+              "componentName": "HeroBanner",
+              "dataSource": "{3FF98DCA-274F-4554-893A-80F45F8E0782}",
+              "params": {
+                "buttonVariant": "Contained",
+                "buttonMode": "Primary",
+                "HeroBannerVariant": "L2"
+              },
+              "fields": {
+                "category": {
+                  "id": "941f15c9-2ec5-43cc-b947-b14c5f3b9f7f",
+                  "url": "/Content/Category/Article/business",
+                  "fields": {
+                    "name": {
+                      "value": "Business"
+                    },
+                    "link": {
+                      "value": {
+                        "href": "/articles",
+                        "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                        "querystring": "",
+                        "text": "articles",
+                        "anchor": "",
+                        "title": "",
+                        "class": "",
+                        "url": "/fwd/fwd-th/Home/articles",
+                        "linktype": "internal"
+                      }
+                    }
+                  }
+                },
+                "link": {
+                  "value": {
+                    "href": "/about-us",
+                    "text": "About Us",
+                    "anchor": "",
+                    "linktype": "internal",
+                    "class": "",
+                    "title": "",
+                    "querystring": "",
+                    "id": "{49F0D81D-2E91-44B2-9F6E-3267BABAFA41}"
+                  }
+                },
+                "subTitle": {
+                  "value": "people feel about insurance"
+                },
+                "title": {
+                  "value": "FWD-TH-Banner"
+                },
+                "label": {
+                  "value": ""
+                },
+                "image": {
+                  "value": {
+                    "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/hero-banner.png?h=612&w=1224&hash=B318B72C198639E267ABE8E8272DD7B1",
+                    "alt": "hero banner",
+                    "width": "1224",
+                    "height": "612"
+                  }
+                },
+                "mediaType": {
+                  "id": "a537f571-3e6f-4cdd-a9f9-5093569c9c19",
+                  "url": "/sitecore/content/fwd/Global/Settings/List/media-type/Image",
+                  "fields": {
+                    "value": {
+                      "value": "Image"
+                    },
+                    "key": {
+                      "value": "Image"
+                    }
+                  }
+                },
+                "videoLink": {
+                  "value": null
+                },
+                "videoYouTubeID": {
+                  "value": ""
+                }
+              }
+            },
+            {
+              "uid": "3e637519-1f0a-414c-8a95-4bfc7b7ce18e",
+              "componentName": "FlexiContainer",
+              "dataSource": "",
+              "params": {
+                "numberOfColumns": "6-6",
+                "backgroundColor": "white|white",
+                "carouselMode": "None"
+              },
+              "placeholders": {
+                "jss-col-1": [
+                  {
+                    "uid": "1cc6a447-003d-44aa-af11-cbed5aa96886",
+                    "componentName": "SectionContent",
+                    "dataSource": "{F29E4AA0-0783-4F82-B15C-6A18F4449916}",
+                    "fields": {
+                      "link": {
+                        "value": {}
+                      },
+                      "subTitle": {
+                        "value": ""
+                      },
+                      "title": {
+                        "value": "Our vision"
+                      },
+                      "description": {
+                        "value": "FWD has a clear vision <strong>\"To change the way that people feel about insurance\"</strong>. We deliver insurance in a quick, transparent, and open manner that is refreshingly different from the rest of the industry."
+                      }
+                    }
+                  }
+                ],
+                "jss-col-2": [
+                  {
+                    "uid": "d2f606af-11b6-4497-85e9-16b3ebee4ee3",
+                    "componentName": "LinkList",
+                    "dataSource": "{37D70532-9D9A-453A-85DE-BE792B1D7136}",
+                    "params": {
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary",
+                      "backgroundColor": "white",
+                      "variant": "stacked"
+                    },
+                    "fields": {
+                      "description": {
+                        "value": ""
+                      },
+                      "listItems": [
+                        {
+                          "id": "3ac5b3e4-2ebc-4baf-b1ef-dc8ae138bd02",
+                          "fields": {
+                            "icon": {
+                              "value": {}
+                            },
+                            "link": {
+                              "value": {
+                                "text": "Strong Financial",
+                                "linktype": "modelpopup",
+                                "querystring": "",
+                                "target": "",
+                                "id": "{DF6C2629-7106-4FF5-AD5D-D2A54826BB84}",
+                                "modelpopupcontent": {
+                                  "title": {
+                                    "value": "Strong Financial Position"
+                                  },
+                                  "description": {
+                                    "value": "FWD is the insurance business of Pacific Century Group. Pacific Century Group (PCG) is an Asia-based private investment group established in 1993. PCG has a strong track record of holding and developing assets over the long term, and has a network of well-established connections in Asia.\r\n\r\nPCG has interests in three core business pillars: financial services, technology, media & telecommunications, and real estate. Our sister companies include global integrated communications group PCCW; Hong Kong's premier telecommunications service provider HKT; global asset manager PineBridge Investments; and property and infrastructure development company Pacific Century Premium Developments (PCPD).\r\n\r\nOur minority shareholder, Swiss Re Group, is one of the world's leading reinsurers."
+                                  },
+                                  "link": {
+                                    "value": {
+                                      "href": "/",
+                                      "text": "Investor relations",
+                                      "anchor": "",
+                                      "linktype": "internal",
+                                      "class": "",
+                                      "title": "",
+                                      "target": "",
+                                      "querystring": "",
+                                      "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "title": {
+                              "value": ""
+                            },
+                            "subTitle": {
+                              "value": ""
+                            },
+                            "linkIcon": {
+                              "id": "6816b289-e488-4764-913d-41ec0310b5ed",
+                              "url": "/sitecore/content/fwd/Global/Settings/List/LinkVariant/Info",
+                              "fields": {
+                                "value": {
+                                  "value": "info"
+                                },
+                                "key": {
+                                  "value": "Info"
+                                }
+                              }
+                            },
+                            "listType": {
+                              "id": "f281af72-fa4b-4f87-98f1-4b9d77180e60",
+                              "url": "/sitecore/content/fwd/Global/Settings/List/LinkListType/generic_link",
+                              "fields": {
+                                "value": {
+                                  "value": "Generic Link"
+                                },
+                                "key": {
+                                  "value": "generic_link"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "9be38576-120b-46f3-9c3f-5c70b9f6f18b",
+                          "fields": {
+                            "icon": {
+                              "value": {}
+                            },
+                            "link": {
+                              "value": {
+                                "text": "Investor relations",
+                                "linktype": "modelpopup",
+                                "querystring": "",
+                                "target": "",
+                                "id": "{BEAD0B26-3625-4E55-B523-E9C0D1292A83}",
+                                "modelpopupcontent": {
+                                  "title": {
+                                    "value": "Strong Financial Position"
+                                  },
+                                  "description": {
+                                    "value": "FWD is the insurance business of Pacific Century Group. Pacific Century Group (PCG) is an Asia-based private investment group established in 1993. PCG has a strong track record of holding and developing assets over the long term, and has a network of well-established connections in Asia.\r\n\r\nPCG has interests in three core business pillars: financial services, technology, media & telecommunications, and real estate. Our sister companies include global integrated communications group PCCW; Hong Kong's premier telecommunications service provider HKT; global asset manager PineBridge Investments; and property and infrastructure development company Pacific Century Premium Developments (PCPD).\r\n\r\nOur minority shareholder, Swiss Re Group, is one of the world's leading reinsurers."
+                                  },
+                                  "link": {
+                                    "value": {
+                                      "href": "/",
+                                      "text": "Investor relations",
+                                      "anchor": "",
+                                      "linktype": "internal",
+                                      "class": "",
+                                      "title": "",
+                                      "target": "",
+                                      "querystring": "",
+                                      "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "title": {
+                              "value": ""
+                            },
+                            "subTitle": {
+                              "value": ""
+                            },
+                            "linkIcon": {
+                              "id": "6816b289-e488-4764-913d-41ec0310b5ed",
+                              "url": "/sitecore/content/fwd/Global/Settings/List/LinkVariant/Info",
+                              "fields": {
+                                "value": {
+                                  "value": "info"
+                                },
+                                "key": {
+                                  "value": "Info"
+                                }
+                              }
+                            },
+                            "listType": {
+                              "id": "f281af72-fa4b-4f87-98f1-4b9d77180e60",
+                              "url": "/sitecore/content/fwd/Global/Settings/List/LinkListType/generic_link",
+                              "fields": {
+                                "value": {
+                                  "value": "Generic Link"
+                                },
+                                "key": {
+                                  "value": "generic_link"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "showMoreLink": {
+                        "value": {}
+                      },
+                      "title": {
+                        "value": ""
+                      }
+                    }
+                  }
+                ],
+                "jss-col-3": [],
+                "jss-col-4": []
+              }
+            },
+            {
+              "uid": "4466984e-75e3-4eb5-adf8-a70c24b16ea6",
+              "componentName": "AwardsList",
+              "dataSource": "{EE3B69F9-CEDE-4D65-960D-234D8C987F5C}",
+              "params": {
+                "noOfCardsInDesktop": "4"
+              },
+              "fields": {
+                "linkItems": [
+                  {
+                    "id": "09d97bfe-aa72-4a0d-aaac-3b71ffbf7c93",
+                    "name": "Global",
+                    "displayName": "Global",
+                    "fields": {
+                      "isDefault": {
+                        "value": false
+                      }
+                    },
+                    "Children": [
+                      {
+                        "id": "2baedbac-6da9-4ed3-aea6-6237713550e3",
+                        "name": "Award1",
+                        "displayName": "Award1",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Medical Care - Excellence Award"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{2BAEDBAC-6DA9-4ED3-AEA6-6237713550E3}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{2BAEDBAC-6DA9-4ED3-AEA6-6237713550E3}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Medical Care"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "48493224-6ebb-442f-ade5-d1924fd47eb6",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "7a20290c-0a46-4edf-b039-5bf7740e28e9",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "e2ad5a85-7878-42b2-93cb-cf63386793a8",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "6ffb5ade-8375-41a8-9958-7240775ccc60",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "b014b8a8-bf4e-4838-b59a-e68e2979d753",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "7c85e662-e5ba-4092-bd4e-029f6e034e00",
+                        "name": "Award2",
+                        "displayName": "Award2",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Health & Protection - Excellence Award"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "https://www.fwd.com.hk/en/about/awards/",
+                              "text": "Awards",
+                              "linktype": "external",
+                              "url": "https://www.fwd.com.hk/en/about/awards/",
+                              "anchor": "",
+                              "title": "Awards",
+                              "target": "_blank"
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Health & Protection"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "1e1c37f4-b933-4308-866c-40953198945e",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "948cb3d7-2b53-4067-856c-45535070af40",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "874ba8ae-39ae-4f15-85b7-1371dc54e7fb",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "9170a213-dfcd-4e74-b622-185d85417302",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "921936c0-f5ff-4781-9999-3ffae2d731ae",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "a8eec495-1729-4bef-a5da-d8ecbd1efad5",
+                        "name": "Award3",
+                        "displayName": "Award3",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Mobile Usability - Excellence Award"
+                          },
+                          "link": {
+                            "value": {}
+                          },
+                          "awardCategory": {
+                            "value": "Mobile Usability "
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "4c90b4a4-6aaf-4d44-8c09-9de6aa3cc43b",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "21157bca-5902-44c1-b929-78e19422e0ef",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "fa80fff7-ff15-4713-b5a6-a9695a4ee00a",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "6f5f283f-4431-475b-80a0-0605ae5f2a76",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "61dfca15-a3f8-48f5-a19d-f341320a01a5",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "01d43db5-ae65-4d3e-aa80-05ba8a231acc",
+                    "name": "Thailand",
+                    "displayName": "Thailand",
+                    "fields": {
+                      "isDefault": {
+                        "value": true
+                      }
+                    },
+                    "Children": [
+                      {
+                        "id": "9c1eb0cd-e22a-4030-be44-e90c024f97de",
+                        "name": "Award1",
+                        "displayName": "Award1",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "eCommAs Award"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{9C1EB0CD-E22A-4030-BE44-E90C024F97DE}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{9C1EB0CD-E22A-4030-BE44-E90C024F97DE}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "eCommAs"
+                          },
+                          "awardIssuer": {
+                            "value": "Mark"
+                          },
+                          "awardYears": {
+                            "value": "2017"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "d9c22bd3-54ac-448b-a2e5-3d09d31fb52d",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "578e4c98-d9ed-4382-8ec2-0807df76e0fa",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "7c8e8740-89cb-4122-89d4-c39f8b95bf92",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "d0c7adcc-af1f-4fdf-9928-c2a2774d1412",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "53a91107-bd05-47f8-842b-3e1fb9126154",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "049f5210-4aba-4ceb-921a-72ceb60633c6",
+                        "name": "Award2",
+                        "displayName": "Award2",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Employer of Choice Award"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{049F5210-4ABA-4CEB-921A-72CEB60633C6}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{049F5210-4ABA-4CEB-921A-72CEB60633C6}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Health & Protection"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2016"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "89a1c058-3657-49a3-aa03-e9bedcabb9c8",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "bc358779-86b2-4ee2-adb2-4d04e08b6e41",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "19214017-a199-4f56-a913-d7a7444df170",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "7214d7c0-afc3-44ac-9c80-4e98a98701f6",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "0d69cadb-8663-4bd2-9827-6aa7f3588645",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "6b594bba-784b-42c7-971b-31f9774c55ae",
+                        "name": "Award3",
+                        "displayName": "Award3",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "MARKies Awards"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{6B594BBA-784B-42C7-971B-31F9774C55AE}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{6B594BBA-784B-42C7-971B-31F9774C55AE}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Mobile Usability "
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "1a8a3fd0-cb9b-46f9-805c-224973d12a56",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "238a3b46-c084-4366-9663-d8709eb7bda1",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "83a327ab-6def-4843-829c-a755056ae7fa",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "cf011638-1db8-4b9b-baf0-4d34ca26b812",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "ea7e6d54-b7b5-4822-b959-ff9bd5e5f584",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "4840ac41-0000-4efb-8879-37fa5970c37b",
+                        "name": "Award4",
+                        "displayName": "Award4",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Caring Company Award"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{4840AC41-0000-4EFB-8879-37FA5970C37B}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{4840AC41-0000-4EFB-8879-37FA5970C37B}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Caring"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2016"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "af6d10bf-7bd3-47d0-ada2-de045f49992c",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "31905f77-3a0e-4be1-8ca0-d675ae11e148",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "66f83192-c51a-4191-81d4-1398050a4765",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "60249764-c5ee-4484-b4cc-e1bcacd8fed2",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "933a8bd5-cc77-457c-8054-40ea1510d7aa",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "87e1fe9b-0933-4821-9f21-5b11ffad6f84",
+                        "name": "Award5",
+                        "displayName": "Award5",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "Online Platform - Excellence Award"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "https://www.fwd.com.hk/en/about/awards/",
+                              "text": "Awards",
+                              "linktype": "external",
+                              "url": "https://www.fwd.com.hk/en/about/awards/",
+                              "anchor": "",
+                              "title": "Awards",
+                              "target": "_blank"
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "Online Platform"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "0a1efd32-43b1-44b6-acd8-e7aaca95b46a",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "f821b74d-5e77-4eee-a940-6fb034cf6f2c",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "68fee051-00fc-4fe8-bae5-0cb6ba94d4a9",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "ab249173-4ec8-4a15-95ff-22c5e8e77dc4",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "026e3cde-94ef-442d-adde-66ed32ce7ce6",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "bee07d4a-0700-41c3-b938-7d991c0388cb",
+                        "name": "Award6",
+                        "displayName": "Award6",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "InsurTech Company of the Year - Excellence Award"
+                          },
+                          "link": {
+                            "value": {
+                              "text": "",
+                              "linktype": "modelpopup",
+                              "querystring": "",
+                              "target": "",
+                              "id": "{BEE07D4A-0700-41C3-B938-7D991C0388CB}",
+                              "modelpopupcontent": {
+                                "title": {
+                                  "value": ""
+                                },
+                                "description": {
+                                  "value": ""
+                                },
+                                "link": {
+                                  "value": {
+                                    "text": "",
+                                    "linktype": "modelpopup",
+                                    "querystring": "",
+                                    "target": "",
+                                    "id": "{BEE07D4A-0700-41C3-B938-7D991C0388CB}"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "InsurTech"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "5659ff1d-4cea-4764-969b-45ed7e06e219",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "6ad7be9a-1f17-46de-91d7-14a92e889c5f",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "a9e8a33f-727b-4ad2-85fe-e75733151aaf",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "5dc45dd8-8b1c-4f05-99f4-815399d5bf23",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "af5a0394-1cfa-4608-b98d-b0f1d223f323",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "b9c35d25-3191-4de7-b3fd-16b33b1eb24c",
+                        "name": "Award7",
+                        "displayName": "Award7",
+                        "fields": {
+                          "awardImage": {
+                            "value": {
+                              "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/award.jpg?h=144&w=288&hash=C31D41D345A539B509472A8EC4B775FA",
+                              "alt": "award",
+                              "width": "288",
+                              "height": "144"
+                            }
+                          },
+                          "awardName": {
+                            "value": "InsurTech Company of the Year - Excellence Award"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "https://www.fwd.com.hk/en/about/awards/",
+                              "text": "Awards",
+                              "linktype": "external",
+                              "url": "https://www.fwd.com.hk/en/about/awards/",
+                              "anchor": "",
+                              "title": "Awards",
+                              "target": "_blank"
+                            }
+                          },
+                          "awardCategory": {
+                            "value": "InsurTech"
+                          },
+                          "awardIssuer": {
+                            "value": "John"
+                          },
+                          "awardYears": {
+                            "value": "2019, 2018"
+                          }
+                        },
+                        "Children": [
+                          {
+                            "id": "e272ae5f-48b1-4f9f-87d1-7e91ab3ceb82",
+                            "name": "Categories",
+                            "displayName": "Categories",
+                            "fields": {},
+                            "Children": [
+                              {
+                                "id": "d5612955-a3d7-405b-8f5d-e6cf0b2bbb46",
+                                "name": "Best-in-class",
+                                "displayName": "Best-in-class",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Brands of the year - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "fa0d185d-f5af-479b-b035-7e1864adb71f",
+                                "name": "best-in-class-health",
+                                "displayName": "Best-in-class- Health",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Healthcare Insurance Product"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "2da9e4ad-2b76-4ad6-b216-835d2427515d",
+                                "name": "best-in-class-insurance",
+                                "displayName": "Best-in-class- insurance",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Best-in-class"
+                                  },
+                                  "subCategory": {
+                                    "value": "Online Usability - Insurance"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "33636974-fef3-4014-85b0-9ad1e2897ac8",
+                                "name": "outstanding-achiever",
+                                "displayName": "Outstanding Achiever",
+                                "fields": {
+                                  "Name": {
+                                    "value": "Outstanding Achiever"
+                                  },
+                                  "subCategory": {
+                                    "value": "Customer commitment & Engagement - Insurance"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "shortDescription": {
+                  "value": "Our innovation strategies and commitment to our client and communities haven't gone unnoticed."
+                },
+                "title": {
+                  "value": "Our Awards"
+                }
+              }
+            },
+            {
+              "uid": "1a0e3705-b02c-490b-bf35-4728673129c7",
+              "componentName": "DynamicCardList",
+              "dataSource": "{22E7CD2D-C739-4D72-967E-95576C99FFE8}",
+              "params": {
+                "carouselMode": "Mobile"
+              },
+              "fields": {
+                "title": {
+                  "value": "Latest Press and Media"
+                },
+                "description": {
+                  "value": ""
+                },
+                "subTitle": {
+                  "value": ""
+                },
+                "link": {
+                  "value": {
+                    "href": "/articles",
+                    "text": "See all press & media",
+                    "anchor": "",
+                    "linktype": "internal",
+                    "class": "",
+                    "title": "See all press & media",
+                    "querystring": "",
+                    "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}"
+                  }
+                },
+                "linkIcon": {
+                  "id": "6816b289-e488-4764-913d-41ec0310b5ed",
+                  "url": "/sitecore/content/fwd/Global/Settings/List/LinkVariant/Info",
+                  "fields": {
+                    "value": {
+                      "value": "info"
+                    },
+                    "key": {
+                      "value": "Info"
+                    }
+                  }
+                },
+                "apiAllowPagination": {
+                  "value": false
+                },
+                "apiPageSize": {
+                  "value": "3"
+                },
+                "apiSubType": {
+                  "id": "f9477f10-1a0c-48a1-9ab0-4cd0672c9aa9",
+                  "url": "/Content/Tags/commonTags/contentSubtype/Articles/press-releases",
+                  "fields": {
+                    "name": {
+                      "value": "Press Releases"
+                    },
+                    "searchName": {
+                      "value": "Press Releases"
+                    },
+                    "link": {
+                      "value": {}
+                    }
+                  }
+                },
+                "apiContentType": {
+                  "id": "20162863-ae86-4b42-9aec-b7a81a345553",
+                  "url": "/sitecore/content/fwd/Global/Settings/api-query/content-types/Articles",
+                  "fields": {
+                    "value": {
+                      "value": "https://dev-api.fwdxt.com/search/{language}/GetArticleList"
+                    },
+                    "key": {
+                      "value": "Articles"
+                    }
+                  }
+                },
+                "apiOrderBy": {
+                  "id": "78884945-0015-42b3-b0f8-0700d291ad8d",
+                  "url": "/sitecore/content/fwd/Global/Settings/api-query/order-by/Descending",
+                  "fields": {
+                    "value": {
+                      "value": "desc"
+                    },
+                    "key": {
+                      "value": "Descending"
+                    }
+                  }
+                },
+                "apiSortBy": {
+                  "id": "c27171a2-8ac2-4005-8076-dc7489e3997b",
+                  "url": "/sitecore/content/fwd/Global/Settings/api-query/sort-by/Date",
+                  "fields": {
+                    "value": {
+                      "value": "Date"
+                    },
+                    "key": {
+                      "value": "Date"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "jss-footer": []
+        }
+      }
+    }
+  }

@@ -1,0 +1,2994 @@
+{
+    "sitecore": {
+      "context": {
+        "visitorIdentificationTimestamp": 637092130255396000,
+        "pageEditing": false,
+        "site": {
+          "name": "FWD-TH"
+        },
+        "pageState": "normal",
+        "language": "en"
+      },
+      "route": {
+        "name": "articles",
+        "displayName": "articles",
+        "fields": {
+          "metadataTitle": {
+            "value": "Changing the way people feel about insurance"
+          },
+          "metadataDescription": {
+            "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+          },
+          "IsPageSearchable": {
+            "value": false
+          }
+        },
+        "databaseName": "master",
+        "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+        "itemId": "a5d5aab3-9f8f-4015-b412-e3953e609d0e",
+        "itemLanguage": "en",
+        "itemVersion": 1,
+        "layoutId": "e60605a5-f4f9-479a-b992-741bce767b1d",
+        "templateId": "b2d6d3cc-54af-43e5-83b9-b500efa0aa92",
+        "templateName": "ArticleLandingPage",
+        "placeholders": {
+          "jss-metadata": [],
+          "jss-header": [],
+          "jss-main": [
+            {
+              "uid": "e93a3f69-aa49-429c-92fe-8348fe91eb81",
+              "componentName": "FlexiContainer",
+              "dataSource": "",
+              "params": {
+                "numberOfColumns": "12"
+              },
+              "placeholders": {
+                "jss-col-1": [
+                  {
+                    "uid": "4ada331f-54fe-434c-bc90-c82fab2ca308",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{0AB8C32E-EC7A-4054-A434-A32F79C24F6F}",
+                    "params": {
+                      "cardVariant": "Large",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-09-10T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "a8ff4744-b88c-4fad-926c-4ef91d70ed3d",
+                          "fields": {
+                            "name": {
+                              "value": "Family"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "da27f738-68a5-4705-8aad-b1aa66b26c5f",
+                          "fields": {
+                            "name": {
+                              "value": "Business"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "3cab47d6-55bb-4cec-a49e-623d28166ed7",
+                          "fields": {
+                            "name": {
+                              "value": "Individual"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "b3b1ce15-b448-4de7-b36a-ffd1e0273cb7",
+                          "fields": {
+                            "name": {
+                              "value": "Kids"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "941f15c9-2ec5-43cc-b947-b14c5f3b9f7f",
+                        "url": "/Content/Category/Article/business",
+                        "fields": {
+                          "name": {
+                            "value": "Business"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-1",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{0AB8C32E-EC7A-4054-A434-A32F79C24F6F}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-large.jpg",
+                          "alt": "article card"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 1"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-2": [],
+                "jss-col-3": [],
+                "jss-col-4": []
+              }
+            },
+            {
+              "uid": "7ca429db-27cd-4675-8ee5-525302aa3d8b",
+              "componentName": "FlexiContainer",
+              "dataSource": "",
+              "params": {
+                "numberOfColumns": "4-4-4"
+              },
+              "placeholders": {
+                "jss-col-1": [
+                  {
+                    "uid": "3e5d3699-256d-4409-bda9-1b3131152de0",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{EFA560EC-8949-4EBC-BD00-ECCFB8F8AEB2}",
+                    "params": {
+                      "cardVariant": "Medium",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-10-07T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "307d7cee-07b3-48a2-95b7-16e945e6b4b2",
+                          "fields": {
+                            "name": {
+                              "value": "Beneficiary"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "da27f738-68a5-4705-8aad-b1aa66b26c5f",
+                          "fields": {
+                            "name": {
+                              "value": "Business"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "b408f328-e525-4f8a-8a5c-1e6cea5b0d31",
+                          "fields": {
+                            "name": {
+                              "value": "Feedback"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "00d32060-f30f-4b3a-af44-741d2d78dd02",
+                          "fields": {
+                            "name": {
+                              "value": "Get Insured"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "1e5c6f38-88c5-4213-825e-ddaa28430e95",
+                        "url": "/Content/Category/Article/wealth-accumulation",
+                        "fields": {
+                          "name": {
+                            "value": "Wealth Accumulation (Savings?)"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-2",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{EFA560EC-8949-4EBC-BD00-ECCFB8F8AEB2}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "bec470be-ebee-4a68-be1d-4d071bfce207",
+                          "fields": {
+                            "name": {
+                              "value": "family"
+                            },
+                            "searchName": {
+                              "value": "family"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "509f75d7-d08a-42af-a20e-320afb952c52",
+                          "fields": {
+                            "name": {
+                              "value": "employee"
+                            },
+                            "searchName": {
+                              "value": "employee"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "b708a10a-9a4b-4e09-98be-c76b8bdeab8c",
+                        "url": "/Content/Tags/articlesTags/Source/content-partner",
+                        "fields": {
+                          "name": {
+                            "value": "Content partner"
+                          },
+                          "searchName": {
+                            "value": "Content partner"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "aded5fec-0baf-45f2-baab-03e3c9cc7154",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-1",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 1"
+                          },
+                          "searchName": {
+                            "value": "Tier 1"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "8aa48d73-95ab-4b38-a59a-c87a7fadbbe4",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/News",
+                        "fields": {
+                          "name": {
+                            "value": "News"
+                          },
+                          "searchName": {
+                            "value": "News"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-medium.jpg?h=221&w=392&hash=740E1A75BD7E69363266004DCC0E14A9",
+                          "alt": "article card",
+                          "width": "392",
+                          "height": "221"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 2"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-2": [
+                  {
+                    "uid": "f52de91c-5f86-4e88-b28c-ffe26eae4003",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{98834CCA-8C5B-42BB-BFA7-D9C6BE764FC6}",
+                    "params": {
+                      "cardVariant": "Medium",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-12T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "b408f328-e525-4f8a-8a5c-1e6cea5b0d31",
+                          "fields": {
+                            "name": {
+                              "value": "Feedback"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "00d32060-f30f-4b3a-af44-741d2d78dd02",
+                          "fields": {
+                            "name": {
+                              "value": "Get Insured"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "b3b1ce15-b448-4de7-b36a-ffd1e0273cb7",
+                          "fields": {
+                            "name": {
+                              "value": "Kids"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "92aa79e8-97dc-4a30-9757-5229ef250bcb",
+                          "fields": {
+                            "name": {
+                              "value": "Policy Owner"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "30aa6a03-b518-4609-9267-a023dd5fb41e",
+                        "url": "/Content/Category/Article/protection",
+                        "fields": {
+                          "name": {
+                            "value": "Protection"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-3",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{98834CCA-8C5B-42BB-BFA7-D9C6BE764FC6}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "509f75d7-d08a-42af-a20e-320afb952c52",
+                          "fields": {
+                            "name": {
+                              "value": "employee"
+                            },
+                            "searchName": {
+                              "value": "employee"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4c697943-ff95-4b21-9636-95c25f2a1a56",
+                          "fields": {
+                            "name": {
+                              "value": "individual"
+                            },
+                            "searchName": {
+                              "value": "individual"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "b708a10a-9a4b-4e09-98be-c76b8bdeab8c",
+                        "url": "/Content/Tags/articlesTags/Source/content-partner",
+                        "fields": {
+                          "name": {
+                            "value": "Content partner"
+                          },
+                          "searchName": {
+                            "value": "Content partner"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "aa498376-72f7-4f3e-9edd-9ed56c762a02",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-2",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 2"
+                          },
+                          "searchName": {
+                            "value": "Tier 2"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "8aa48d73-95ab-4b38-a59a-c87a7fadbbe4",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/News",
+                        "fields": {
+                          "name": {
+                            "value": "News"
+                          },
+                          "searchName": {
+                            "value": "News"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-medium.jpg?h=221&w=392&hash=740E1A75BD7E69363266004DCC0E14A9",
+                          "alt": "article card",
+                          "width": "392",
+                          "height": "221"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 3"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-3": [
+                  {
+                    "uid": "938be093-93d2-4192-98c5-44f111e1700f",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{2115C0BB-9E6F-4749-BE83-4753212CBC37}",
+                    "params": {
+                      "cardVariant": "Medium",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-10-09T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "51a6ba0b-f49d-46ee-bbac-6739809a7b2e",
+                          "fields": {
+                            "name": {
+                              "value": "Claim"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "b408f328-e525-4f8a-8a5c-1e6cea5b0d31",
+                          "fields": {
+                            "name": {
+                              "value": "Feedback"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "da27f738-68a5-4705-8aad-b1aa66b26c5f",
+                          "fields": {
+                            "name": {
+                              "value": "Business"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "3cab47d6-55bb-4cec-a49e-623d28166ed7",
+                          "fields": {
+                            "name": {
+                              "value": "Individual"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "30aa6a03-b518-4609-9267-a023dd5fb41e",
+                        "url": "/Content/Category/Article/protection",
+                        "fields": {
+                          "name": {
+                            "value": "Protection"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-4",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{2115C0BB-9E6F-4749-BE83-4753212CBC37}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "bec470be-ebee-4a68-be1d-4d071bfce207",
+                          "fields": {
+                            "name": {
+                              "value": "family"
+                            },
+                            "searchName": {
+                              "value": "family"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "509f75d7-d08a-42af-a20e-320afb952c52",
+                          "fields": {
+                            "name": {
+                              "value": "employee"
+                            },
+                            "searchName": {
+                              "value": "employee"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "6665f91e-71ea-4bbd-afdd-2449f4b769dd",
+                        "url": "/Content/Tags/articlesTags/Source/third-party-media",
+                        "fields": {
+                          "name": {
+                            "value": "Third-party media"
+                          },
+                          "searchName": {
+                            "value": "Third-party media"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "a457d402-0f49-473f-94eb-e04ba1be4a7f",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-3",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 3"
+                          },
+                          "searchName": {
+                            "value": "Tier 3"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-medium.jpg?h=221&w=392&hash=740E1A75BD7E69363266004DCC0E14A9",
+                          "alt": "article card",
+                          "width": "392",
+                          "height": "221"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 4"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-4": []
+              }
+            },
+            {
+              "uid": "1f00c0fc-72c6-4e7c-9431-66e537d52a6b",
+              "componentName": "FlexiContainer",
+              "dataSource": "",
+              "params": {
+                "numberOfColumns": "4-4-4"
+              },
+              "placeholders": {
+                "jss-col-1": [
+                  {
+                    "uid": "8b947e1e-d43c-4cea-8bcb-12a17bd57cbd",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{9B5E30A1-953F-4F8B-8C97-2634B1C089A9}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-12T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "b408f328-e525-4f8a-8a5c-1e6cea5b0d31",
+                          "fields": {
+                            "name": {
+                              "value": "Feedback"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "941f15c9-2ec5-43cc-b947-b14c5f3b9f7f",
+                        "url": "/Content/Category/Article/business",
+                        "fields": {
+                          "name": {
+                            "value": "Business"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-5",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{9B5E30A1-953F-4F8B-8C97-2634B1C089A9}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 5"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-2": [
+                  {
+                    "uid": "5612a9ad-3085-46b3-b5a3-31ae32c0a7f4",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{934D88E3-7115-4160-9859-9B26837EB15B}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-05T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "00d32060-f30f-4b3a-af44-741d2d78dd02",
+                          "fields": {
+                            "name": {
+                              "value": "Get Insured"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "30aa6a03-b518-4609-9267-a023dd5fb41e",
+                        "url": "/Content/Category/Article/protection",
+                        "fields": {
+                          "name": {
+                            "value": "Protection"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-6",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{934D88E3-7115-4160-9859-9B26837EB15B}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "1a0882d1-29e0-44f1-a452-1bfa66656b0e",
+                          "fields": {
+                            "name": {
+                              "value": "Sport"
+                            },
+                            "searchName": {
+                              "value": "Sport"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 6"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-3": [
+                  {
+                    "uid": "592c7328-e8bd-4b67-9eb9-050e69bb79c4",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{164596A0-85A9-4ED3-8164-09D18A60D165}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-10-16T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "00d32060-f30f-4b3a-af44-741d2d78dd02",
+                          "fields": {
+                            "name": {
+                              "value": "Get Insured"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "a8238b49-aef2-4139-8f13-af0d92c3368b",
+                        "url": "/Content/Category/Article/retirement",
+                        "fields": {
+                          "name": {
+                            "value": "Retirement"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-7",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{164596A0-85A9-4ED3-8164-09D18A60D165}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "1a0882d1-29e0-44f1-a452-1bfa66656b0e",
+                          "fields": {
+                            "name": {
+                              "value": "Sport"
+                            },
+                            "searchName": {
+                              "value": "Sport"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 7"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-4": []
+              }
+            },
+            {
+              "uid": "d8a87075-ead6-4a84-a79f-c93eda484b5b",
+              "componentName": "FlexiContainer",
+              "dataSource": "",
+              "params": {
+                "numberOfColumns": "4-4-4"
+              },
+              "placeholders": {
+                "jss-col-1": [
+                  {
+                    "uid": "f87cd445-6607-4265-8f9f-387ae0506ec5",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{88135871-A054-4A10-9A2C-B6F593AB551D}",
+                    "params": {
+                      "cardVariant": "Medium",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-04T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "92aa79e8-97dc-4a30-9757-5229ef250bcb",
+                          "fields": {
+                            "name": {
+                              "value": "Policy Owner"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "941f15c9-2ec5-43cc-b947-b14c5f3b9f7f",
+                        "url": "/Content/Category/Article/business",
+                        "fields": {
+                          "name": {
+                            "value": "Business"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-8",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{88135871-A054-4A10-9A2C-B6F593AB551D}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "1a0882d1-29e0-44f1-a452-1bfa66656b0e",
+                          "fields": {
+                            "name": {
+                              "value": "Sport"
+                            },
+                            "searchName": {
+                              "value": "Sport"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "65dfe505-b497-4abd-a5ec-cfa2185f68fa",
+                          "fields": {
+                            "name": {
+                              "value": "Wealth"
+                            },
+                            "searchName": {
+                              "value": "Wealth"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-medium.jpg?h=221&w=392&hash=740E1A75BD7E69363266004DCC0E14A9",
+                          "alt": "article card",
+                          "width": "392",
+                          "height": "221"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 8"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-2": [
+                  {
+                    "uid": "39a032f2-58c4-4e3a-bdac-5880df123a48",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{EA7F5207-A2B2-4D2E-BF40-B7EC8C496711}",
+                    "params": {
+                      "cardVariant": "Medium",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-12T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "3cab47d6-55bb-4cec-a49e-623d28166ed7",
+                          "fields": {
+                            "name": {
+                              "value": "Individual"
+                            },
+                            "searchName": {
+                              "value": "$name"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "30aa6a03-b518-4609-9267-a023dd5fb41e",
+                        "url": "/Content/Category/Article/protection",
+                        "fields": {
+                          "name": {
+                            "value": "Protection"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-9",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{EA7F5207-A2B2-4D2E-BF40-B7EC8C496711}"
+                        }
+                      },
+                      "userType": [],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "1a0882d1-29e0-44f1-a452-1bfa66656b0e",
+                          "fields": {
+                            "name": {
+                              "value": "Sport"
+                            },
+                            "searchName": {
+                              "value": "Sport"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "65dfe505-b497-4abd-a5ec-cfa2185f68fa",
+                          "fields": {
+                            "name": {
+                              "value": "Wealth"
+                            },
+                            "searchName": {
+                              "value": "Wealth"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": null,
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": null,
+                      "subtype": {
+                        "id": "9b4f5dc4-00ec-4983-8861-75885c261e9e",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/Announcements",
+                        "fields": {
+                          "name": {
+                            "value": "Announcements"
+                          },
+                          "searchName": {
+                            "value": "Announcements"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-medium.jpg?h=221&w=392&hash=740E1A75BD7E69363266004DCC0E14A9",
+                          "alt": "article card",
+                          "width": "392",
+                          "height": "221"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 9"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-3": [
+                  {
+                    "uid": "b58303fe-4401-45c9-aa75-8436b003135c",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{426D53D2-DCAD-439A-876A-620AD6CB5510}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": "Jose"
+                      },
+                      "date": {
+                        "value": "2019-10-09T18:30:00Z"
+                      },
+                      "isFeatured": {
+                        "value": true
+                      },
+                      "city": {
+                        "id": "a8f6d52a-2372-4a11-bf71-95d2beb21074",
+                        "url": "/Content/City/Pattaya",
+                        "fields": {
+                          "name": {
+                            "value": "Pattaya"
+                          },
+                          "searchName": {
+                            "value": "Pattaya"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "307d7cee-07b3-48a2-95b7-16e945e6b4b2",
+                          "fields": {
+                            "name": {
+                              "value": "Beneficiary"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "30aa6a03-b518-4609-9267-a023dd5fb41e",
+                        "url": "/Content/Category/Article/protection",
+                        "fields": {
+                          "name": {
+                            "value": "Protection"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-11",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{426D53D2-DCAD-439A-876A-620AD6CB5510}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "509f75d7-d08a-42af-a20e-320afb952c52",
+                          "fields": {
+                            "name": {
+                              "value": "employee"
+                            },
+                            "searchName": {
+                              "value": "employee"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4c697943-ff95-4b21-9636-95c25f2a1a56",
+                          "fields": {
+                            "name": {
+                              "value": "individual"
+                            },
+                            "searchName": {
+                              "value": "individual"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "1a0882d1-29e0-44f1-a452-1bfa66656b0e",
+                          "fields": {
+                            "name": {
+                              "value": "Sport"
+                            },
+                            "searchName": {
+                              "value": "Sport"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "65dfe505-b497-4abd-a5ec-cfa2185f68fa",
+                          "fields": {
+                            "name": {
+                              "value": "Wealth"
+                            },
+                            "searchName": {
+                              "value": "Wealth"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "c2d9dc2b-3bdd-4d89-a79d-df2dab88ac87",
+                        "url": "/Content/Tags/articlesTags/Source/FWD",
+                        "fields": {
+                          "name": {
+                            "value": "FWD"
+                          },
+                          "searchName": {
+                            "value": "FWD"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "aa498376-72f7-4f3e-9edd-9ed56c762a02",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-2",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 2"
+                          },
+                          "searchName": {
+                            "value": "Tier 2"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "f9477f10-1a0c-48a1-9ab0-4cd0672c9aa9",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/press-releases",
+                        "fields": {
+                          "name": {
+                            "value": "Press Releases"
+                          },
+                          "searchName": {
+                            "value": "Press Releases"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 11"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  },
+                  {
+                    "uid": "8bdc6ce3-aef4-4ba6-8ec9-cd80514a8c54",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{6E698E2D-4251-4C7F-80F6-B83D90CD4E94}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": ""
+                      },
+                      "date": {
+                        "value": "2019-11-12T00:00:00Z"
+                      },
+                      "isFeatured": {
+                        "value": false
+                      },
+                      "city": null,
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "00d32060-f30f-4b3a-af44-741d2d78dd02",
+                          "fields": {
+                            "name": {
+                              "value": "Get Insured"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "category": {
+                        "id": "a8238b49-aef2-4139-8f13-af0d92c3368b",
+                        "url": "/Content/Category/Article/retirement",
+                        "fields": {
+                          "name": {
+                            "value": "Retirement"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-12",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{6E698E2D-4251-4C7F-80F6-B83D90CD4E94}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "509f75d7-d08a-42af-a20e-320afb952c52",
+                          "fields": {
+                            "name": {
+                              "value": "employee"
+                            },
+                            "searchName": {
+                              "value": "employee"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4c697943-ff95-4b21-9636-95c25f2a1a56",
+                          "fields": {
+                            "name": {
+                              "value": "individual"
+                            },
+                            "searchName": {
+                              "value": "individual"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "a13e3f64-579d-467a-bdd8-a3214871cc4b",
+                          "fields": {
+                            "name": {
+                              "value": "business owner"
+                            },
+                            "searchName": {
+                              "value": "business owner"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [],
+                      "featuredTags": [
+                        {
+                          "id": "27b45f29-dd3f-42a5-a19f-5193a9205d68",
+                          "fields": {
+                            "name": {
+                              "value": "Health"
+                            },
+                            "searchName": {
+                              "value": "Health"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "ba841f13-b6ce-4f60-aefe-830e8e5a40ed",
+                          "fields": {
+                            "name": {
+                              "value": "Life stage"
+                            },
+                            "searchName": {
+                              "value": "Life-stage"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "6665f91e-71ea-4bbd-afdd-2449f4b769dd",
+                        "url": "/Content/Tags/articlesTags/Source/third-party-media",
+                        "fields": {
+                          "name": {
+                            "value": "Third-party media"
+                          },
+                          "searchName": {
+                            "value": "Third-party media"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "a457d402-0f49-473f-94eb-e04ba1be4a7f",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-3",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 3"
+                          },
+                          "searchName": {
+                            "value": "Tier 3"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "f9477f10-1a0c-48a1-9ab0-4cd0672c9aa9",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/press-releases",
+                        "fields": {
+                          "name": {
+                            "value": "Press Releases"
+                          },
+                          "searchName": {
+                            "value": "Press Releases"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 12"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  },
+                  {
+                    "uid": "4151f3ac-6701-49ff-91f1-f8bdb3efc45c",
+                    "componentName": "ArticleCard",
+                    "dataSource": "{2F6D9A47-7D78-4A89-B52F-26DA21C05A8A}",
+                    "params": {
+                      "cardVariant": "Small",
+                      "buttonVariant": "Contained",
+                      "buttonMode": "Primary"
+                    },
+                    "fields": {
+                      "author": {
+                        "value": "Mark"
+                      },
+                      "date": {
+                        "value": "2019-10-31T18:30:00Z"
+                      },
+                      "isFeatured": {
+                        "value": true
+                      },
+                      "city": {
+                        "id": "a8f6d52a-2372-4a11-bf71-95d2beb21074",
+                        "url": "/Content/City/Pattaya",
+                        "fields": {
+                          "name": {
+                            "value": "Pattaya"
+                          },
+                          "searchName": {
+                            "value": "Pattaya"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "title": {
+                        "value": "Changing the way people feel about insurance"
+                      },
+                      "tags": [
+                        {
+                          "id": "51a6ba0b-f49d-46ee-bbac-6739809a7b2e",
+                          "fields": {
+                            "name": {
+                              "value": "Claim"
+                            },
+                            "searchName": {
+                              "value": ""
+                            },
+                            "link": {
+                              "value": {
+                                "href": "/",
+                                "text": "show more",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "querystring": "",
+                                "id": "{D9C6779B-43E9-4106-8357-AD0510A8547C}"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "articleTitle": {
+                        "value": "Insurance company in Thailand"
+                      },
+                      "category": {
+                        "id": "378ef7cc-5e8d-4f5a-a1d2-f71eb14979fc",
+                        "url": "/Content/Category/Article/health",
+                        "fields": {
+                          "name": {
+                            "value": "Health"
+                          },
+                          "link": {
+                            "value": {
+                              "href": "/articles",
+                              "id": "{A5D5AAB3-9F8F-4015-B412-E3953E609D0E}",
+                              "querystring": "",
+                              "text": "articles",
+                              "anchor": "",
+                              "title": "",
+                              "class": "",
+                              "url": "/fwd/fwd-th/Home/articles",
+                              "linktype": "internal"
+                            }
+                          }
+                        }
+                      },
+                      "shortDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+                      },
+                      "link": {
+                        "value": {
+                          "href": "/articles/article-10",
+                          "text": "",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{2F6D9A47-7D78-4A89-B52F-26DA21C05A8A}"
+                        }
+                      },
+                      "userType": [
+                        {
+                          "id": "a13e3f64-579d-467a-bdd8-a3214871cc4b",
+                          "fields": {
+                            "name": {
+                              "value": "business owner"
+                            },
+                            "searchName": {
+                              "value": "business owner"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "bec470be-ebee-4a68-be1d-4d071bfce207",
+                          "fields": {
+                            "name": {
+                              "value": "family"
+                            },
+                            "searchName": {
+                              "value": "family"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "AssociatedProducts": [
+                        {
+                          "id": "4a3e2e6d-6399-4dce-a35c-3dc34e683062",
+                          "fields": {
+                            "primaryNeedTags": [],
+                            "purchaseMethod": [],
+                            "subtype": null,
+                            "contentType": null,
+                            "promotionLabel": null,
+                            "secondaryNeedTags": [],
+                            "userType": [],
+                            "featuredTags": [],
+                            "planComponent": null,
+                            "Image": {
+                              "value": {}
+                            },
+                            "productDescription": {
+                              "value": ""
+                            },
+                            "productTitle": {
+                              "value": ""
+                            },
+                            "mobileImage": {
+                              "value": {}
+                            },
+                            "DefaultPlan": {
+                              "value": ""
+                            },
+                            "metadataTitle": {
+                              "value": ""
+                            },
+                            "metadataDescription": {
+                              "value": ""
+                            },
+                            "IsPageSearchable": {
+                              "value": false
+                            }
+                          }
+                        }
+                      ],
+                      "featuredTags": [
+                        {
+                          "id": "4c6b8cb9-d359-4498-a1cd-107cbb0843fe",
+                          "fields": {
+                            "name": {
+                              "value": "Dining"
+                            },
+                            "searchName": {
+                              "value": "Dining"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "65dfe505-b497-4abd-a5ec-cfa2185f68fa",
+                          "fields": {
+                            "name": {
+                              "value": "Wealth"
+                            },
+                            "searchName": {
+                              "value": "Wealth"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        },
+                        {
+                          "id": "4f3a2d61-bba0-47e8-afac-1a0873ac1d34",
+                          "fields": {
+                            "name": {
+                              "value": "Travel"
+                            },
+                            "searchName": {
+                              "value": "Travel"
+                            },
+                            "link": {
+                              "value": {}
+                            }
+                          }
+                        }
+                      ],
+                      "source": {
+                        "id": "c2d9dc2b-3bdd-4d89-a79d-df2dab88ac87",
+                        "url": "/Content/Tags/articlesTags/Source/FWD",
+                        "fields": {
+                          "name": {
+                            "value": "FWD"
+                          },
+                          "searchName": {
+                            "value": "FWD"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "contentType": {
+                        "id": "4fe0a16d-285f-4c41-9bfa-a1343b036cdf",
+                        "url": "/Content/Tags/commonTags/contentType/Articles",
+                        "fields": {
+                          "name": {
+                            "value": "Articles"
+                          },
+                          "searchName": {
+                            "value": "Articles"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "rewardLabel": {
+                        "id": "aded5fec-0baf-45f2-baab-03e3c9cc7154",
+                        "url": "/Content/Tags/articlesTags/rewardLabel/tier-1",
+                        "fields": {
+                          "name": {
+                            "value": "Tier 1"
+                          },
+                          "searchName": {
+                            "value": "Tier 1"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "subtype": {
+                        "id": "f9477f10-1a0c-48a1-9ab0-4cd0672c9aa9",
+                        "url": "/Content/Tags/commonTags/contentSubtype/Articles/press-releases",
+                        "fields": {
+                          "name": {
+                            "value": "Press Releases"
+                          },
+                          "searchName": {
+                            "value": "Press Releases"
+                          },
+                          "link": {
+                            "value": {}
+                          }
+                        }
+                      },
+                      "image": {
+                        "value": {
+                          "src": "https://dev-th.fwdxt.com/-/media/fwd/project/th/img/article-card-small.jpg?h=120&w=120&hash=F434E9F962C4679ADFD2F961F09A05F4",
+                          "alt": "article card",
+                          "width": "120",
+                          "height": "120"
+                        }
+                      },
+                      "metadataTitle": {
+                        "value": "Article 10"
+                      },
+                      "metadataDescription": {
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+                      },
+                      "IsPageSearchable": {
+                        "value": false
+                      }
+                    }
+                  }
+                ],
+                "jss-col-4": []
+              }
+            }
+          ],
+          "jss-footer": []
+        }
+      }
+    }
+  }
