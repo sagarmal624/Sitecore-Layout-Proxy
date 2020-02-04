@@ -20,6 +20,15 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.get('/sitecore/api/jss/dictionary/fwd-th/en', function (req, res) {
+    var url_parts = url.parse(req.url, true);
+    var query = url_parts.query;
+    axios.get(constants.BASE_URL+req.url)
+        .then((response) => {
+            res.send(response.data);
+        });
+});
+
 app.get('/sitecore/api/layout/render/jss', function (req, res) {
     var url_parts = url.parse(req.url, true);
     var query = url_parts.query;

@@ -1,3 +1,3 @@
 module.exports = Object.freeze({
-    BASE_URL: '<Change Your Base Url>'
+    BASE_URL: 'Change your base Url'
 });
